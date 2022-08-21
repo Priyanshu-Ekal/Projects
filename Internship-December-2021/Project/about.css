@@ -1,0 +1,88 @@
+body{
+    width: 100%;
+}
+.media-connections{
+    margin: 0px;
+    padding: 50px 5px 5px 5px;
+    background-color: teal;
+    border-bottom: 1px solid;
+}
+.name{
+    font-size: 50px; 
+    font-family: fantasy; 
+    color: rgb(66, 14, 14); 
+    padding: 0px 0px 0px 50px;
+}
+.name_newsletter a{
+    text-decoration: none;
+    color: red;
+}
+.nav-link{
+    color: black;
+    margin: 0px;
+    padding: 5px 15px 5px 15px;
+}
+.nav-link:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.drop li{
+    display: none;
+    list-style-type: none;
+}
+#navigation{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+
+    background-color: white;
+}
+#home{
+    display: none;
+}
+#home:hover{
+    display: flex;
+}
+/* .flex-row li a{
+    text-decoration: none;
+} */
+.drop li:hover{
+    display: flex;
+}
+main h1{
+    text-align: center;
+    padding: 50px;
+}
+main{
+    background-image: linear-gradient(rgba(240, 240, 198, 0.863),rgba(219, 213, 213, 0.582)),url(../Projects/vehicle-2275456__340.jpeg);
+    background-size: cover;
+}
+#carouselExampleCaptions{
+    padding: 30px;
+}
+.card{
+    display: inline-block;
+    margin: 20px;
+}
+.card-main{
+    text-align: center;
+}
+
+@media only screen and (max-width:768px){
+    #timing{
+        display: none;
+    }
+    .connect{
+        display: none;
+    }
+    .name{
+        font-size: 20px;
+    }
+    #navigation{
+        display: grid;
+    }   
+}
+@media only screen and (max-width:1024px) {
+    .connect{
+        display: none;
+    }
+}
