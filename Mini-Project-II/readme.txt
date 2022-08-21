@@ -1,1 +1,2 @@
-This is simply a read-me file
+To Develop the solution for detection of 
+facial emotions using webcam.
