@@ -1,2 +1,2 @@
-# Projects
-# Internship
+Projects
+Internship
